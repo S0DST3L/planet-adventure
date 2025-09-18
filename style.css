@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #eee;
+  padding: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  background: #333;
+  color: #eee;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #555;
+}
+
+#planet {
+  margin-top: 20px;
+}
+
+.tile {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 1px;
+  border-radius: 3px;
+}
+
+#lifeStatus {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #ffdd00;
+}
+
+#restartBtn {
+  margin-top: 20px;
+  background: #0066cc;
+}
+
+#restartBtn:hover {
+  background: #0099ff;
+}
